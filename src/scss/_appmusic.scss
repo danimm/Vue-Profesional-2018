@@ -1,0 +1,56 @@
+// @import "~bulma/bulma.sass";
+// agregamos bulma dentro de nodemodules
+// $materialize-fonts-path: "~materialize-css/dist/fonts/roboto";
+$altura: 409px;
+$ancho: 420px;
+$color-lightblue: #a3ecf3;
+$color-blue: #00BFD6;
+$color-black: #212121;
+$color-orange: #FF9300;
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container-img{
+  text-align: center;
+}
+.label{
+  font-size: 0.6em;
+  color: $color-orange;
+}
+.container {
+  width: $ancho;
+  height: $altura;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: -20vh;
+}
+.title{
+  color: $color-blue;
+  font-size: 1.8em;
+  margin-top: 5px;
+  // font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-weight: 700;
+  margin-top: 15px;
+
+}
+.input{
+  border: 0;
+  border-bottom: 2px solid $color-orange;
+  box-shadow: none;
+  font-size: 1em;
+  text-align: left;
+  padding-left: 0;
+  color: $color-black;
+}
+.button{
+  // float: right;
+  background-color: $color-blue;
+  color: white;
+  padding: 0 30px;
+  margin-top: 10px;
+}

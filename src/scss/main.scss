@@ -1,0 +1,17 @@
+.move-enter-active, .move-leave-active {
+  transform: translateX(0);
+  transition: all 0.3s ease;
+}
+.move-enter, .move-leave-to {
+  transform: translateX(100%);
+}
+#app{
+  min-height: 100vh;
+  position: relative;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
